@@ -1,0 +1,27 @@
+:root{
+    --color-light:#FFFFFF;
+    --color-background:#F5F5F5;
+    --color-light-red:#FF0F43;
+    --color-red-text:#D10A3D;
+    --color-red:#D70A3F;
+    --color-dark-red:#B30A3F;
+    --color-green:#038D77;
+    --color-dark-green-text:#00443D;
+    --color-snowflake::#007567;
+    --color-dark:#1D1D1B;
+    --color-black:#000000;
+
+    --border-radius: 50px;
+    --border-radius-small: 24px;
+
+    --font-family-base: 'GT Walsheim LC', sans-serif;
+
+    --container-width: 1264px;
+    --container-padding-x: 20px;
+    
+    --section-padding-y: 70px;
+
+    --button-height: 64px;
+    
+    transition-duration: 0.2s;
+}

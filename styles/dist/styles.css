@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Alter Aves";
+  src: url("../fonts/AlterAvesDemo.woff2") format(".woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT Walsheim LC";
+  src: url("../fonts/GTWalsheimTrial-CnULt.woff2") format(".woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: var(--font-family-base);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.element {
+  padding-block: 100px;
+  font-size: 30px;
+}
+@media (max-width: 1280px) {
+  .element {
+    padding-block: 50px;
+    font-size: 18px;
+  }
+}
+
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+:root {
+  --color-light:#FFFFFF;
+  --color-background:#F5F5F5;
+  --color-light-red:#FF0F43;
+  --color-red-text:#D10A3D;
+  --color-red:#D70A3F;
+  --color-dark-red:#B30A3F;
+  --color-green:#038D77;
+  --color-dark-green-text:#00443D;
+  --color-snowflake::#007567;
+  --color-dark:#1D1D1B;
+  --color-black:#000000;
+  --border-radius: 50px;
+  --border-radius-small: 24px;
+  --font-family-base: "GT Walsheim LC", sans-serif;
+  --container-width: 1264px;
+  --container-padding-x: 20px;
+  --section-padding-y: 70px;
+  --button-height: 64px;
+  transition-duration: 0.2s;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 48px;
+}
+.header__menu {
+  font-size: 18px;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,26 @@
+.logo{
+    &__image{
+        padding: 65px;
+    }
+}
+
+
+.header{
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 48px;
+    }
+    
+    &__menu{
+        font-size: 18px;
+    }   
+    &__list{
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+    }
+
+    
+}
